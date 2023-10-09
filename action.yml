@@ -1,0 +1,13 @@
+name: 'Show benchmarks errors'
+description: 'Shows benchmarks errors'
+author: 'Maxim Matveev'
+inputs:
+  path:
+    description: 'Path to XML test results files'
+    required: true
+branding:
+  color: 'orange'
+  icon: 'send'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
