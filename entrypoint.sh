@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 
 echo "START"
 echo $FILES
-for FILE in $FILES
+for FILE in "$FILES"/*
 do
 	if [ -f "$FILE" ]; then		
 		result=$(xmllint --xpath 'string(/test-run/@result)' "$FILE")	
