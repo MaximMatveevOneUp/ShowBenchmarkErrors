@@ -1,5 +1,5 @@
-name: 'Show benchmarks errors'
-description: 'Shows benchmarks errors'
+name: 'Show benchmarks results'
+description: 'Shows benchmarks results'
 author: 'Maxim Matveev'
 inputs:
   path:
